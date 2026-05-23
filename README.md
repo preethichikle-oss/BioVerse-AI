@@ -18,9 +18,9 @@ The platform combines AI tutoring, interactive simulations, quizzes, and real-ti
 ## Screenshots
 ### Home Page
 <img width="1904" height="1026" alt="home page image" src="https://github.com/user-attachments/assets/a7a3a0aa-c53a-40cf-88cb-2dff9170fe5c" />
-### 3D Explorer
+###  3D Explorer
 <img width="1916" height="1038" alt="3D cell image" src="https://github.com/user-attachments/assets/f2f81e78-82b8-47b5-9d21-a5e3350a6612" />
-### Simulation Lab
+###  Simulation Lab
 <img width="1918" height="1035" alt="lab image" src="https://github.com/user-attachments/assets/50e0442a-9bb5-4651-b9e3-4f85f7b87736" />
 
 
