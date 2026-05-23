@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #05070d;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@layer components {
+  .glass {
+    @apply rounded-3xl border border-white/10 bg-panel shadow-bloom backdrop-blur-2xl transition;
+  }
+
+  .primary-btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-2xl border border-cyanGlow/50 bg-cyanGlow/15 px-5 py-3 text-sm font-bold text-white shadow-neon transition hover:scale-[1.02] hover:bg-cyanGlow/20;
+  }
+
+  .secondary-btn {
+    @apply inline-flex items-center justify-center rounded-2xl border border-white/10 bg-white/[0.04] px-5 py-3 text-sm font-bold text-slate-200 transition hover:border-white/25 hover:text-white;
+  }
+
+  .icon-btn {
+    @apply grid h-11 w-11 place-items-center rounded-2xl border border-white/10 bg-white/[0.04] text-slate-300 transition hover:border-cyanGlow/40 hover:text-cyanGlow hover:shadow-neon;
+  }
+
+  .icon-btn svg {
+    @apply h-5 w-5;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(56, 248, 255, 0.35);
+  border-radius: 999px;
+}
