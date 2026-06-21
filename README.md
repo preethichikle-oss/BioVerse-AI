@@ -23,6 +23,8 @@ The platform combines AI tutoring, interactive simulations, quizzes, and real-ti
 ###  Simulation Lab
 <img width="1918" height="1035" alt="lab image" src="https://github.com/user-attachments/assets/50e0442a-9bb5-4651-b9e3-4f85f7b87736" />
 
+## livedemo link 
+https://www.linkedin.com/posts/preethi-chikle-01497937b_aicontest-indianservers-aidevelopment-ugcPost-7463318055511695360-bCnu/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF3wD9ABWvlbSr1p3kfU8GrASnH_7Y1YdSw
 
 ## Tech Stack
 
